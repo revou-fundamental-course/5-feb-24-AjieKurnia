@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <form id="tempConverterForm">
+            <label for="tempInput">Enter Temperature:</label>
+            <input type="number" id="tempInput" name="tempInput" required>
+            <select id="tempUnit" name="tempUnit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <div class="btnForm">
+                <button type="submit" id="convertBtn">Convert</button>
+                <button type="reset" id="reset">reset</button>
+                <button type="button" id="reverseBtn">Reverse</button>
+            </div>
+        </form>
+        <div id="conversionResult"></div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2024 &copy; Made by &hearts; AjieKss</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
